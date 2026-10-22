@@ -96,6 +96,19 @@ SKIP_BREW=1 ./install.sh  # only create symlinks
 
 `install.sh` moves any conflicting files to `~/.dotfiles-backup/<timestamp>/` before linking.
 
+### Choosing what to install
+
+To skip things like `git` or `opencode`, create an untracked `install.config` from the example:
+
+```sh
+cp install.config.example install.config
+```
+
+Then check a box (`[x]`) to skip that item, e.g. `[x] git` or `[x] opencode`. Unchecked boxes and
+items not listed are installed. A box such as `opencode` covers both the Homebrew package and the
+stowed config. `stow` is always installed, and without an `install.config` everything is
+installed. `install.config` is git-ignored.
+
 ## After installing
 
 ```sh

@@ -9,3 +9,4 @@ nvim/.config/nvim/.git/
 
 # Local overrides
 *.local
+install.config

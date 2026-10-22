@@ -1,0 +1,59 @@
+# Install configuration.
+#
+# Copy this file to install.config (untracked) and edit it:
+#   cp install.config.example install.config
+#
+# Check a box ([x]) to SKIP that item. Unchecked boxes are installed.
+# Items not listed here are installed too.
+#
+# A box such as "ghostty" covers both the Homebrew package and the
+# stowed config of the same name. stow itself is always installed.
+
+# Config packages + tools
+[ ] zsh
+[ ] nvim
+[ ] tmux
+[ ] ghostty
+[ ] starship
+[ ] opencode
+[ ] zed
+[ ] gh
+
+# Terminal toolchain
+[ ] tpm
+[ ] zoxide
+[ ] fzf
+[ ] eza
+[ ] fd
+[ ] ripgrep
+[ ] jq
+[ ] tree
+[ ] git
+[ ] git-lfs
+
+# Terminal UIs
+[ ] lazygit
+[ ] lazydocker
+[ ] sesh
+
+# Runtimes and language tooling
+[ ] node
+[ ] deno
+[ ] go
+[ ] python@3.14
+[ ] typescript
+[ ] typescript-language-server
+[ ] tree-sitter
+[ ] clang-format
+[ ] llvm
+[ ] postgresql@18
+
+# Media and networking
+[ ] ffmpeg
+[ ] imagemagick
+[ ] yt-dlp
+[ ] wget
+[ ] curl
+
+# GUI apps
+[ ] temurin
