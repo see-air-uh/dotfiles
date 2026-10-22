@@ -4,3 +4,6 @@ background-opacity=0.99
 mouse-hide-while-typing=true
 font-family="JetbrainsMono Nerd Font"
 font-style=Bold
+macos-icon = custom
+macos-custom-icon = ~/.config/ghostty/icons/ghostty-catppuccin-frappe-ghost.icns
+quit-after-last-window-closed = true

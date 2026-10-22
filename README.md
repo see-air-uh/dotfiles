@@ -130,6 +130,9 @@ nvim                      # lazy.nvim bootstraps itself; run :Lazy sync
 ### Ghostty / Starship / Zed
 
 - Ghostty reads `~/.config/ghostty/config.ghostty` in current builds; the filename is kept as-is.
+- Custom macOS app icons live in `ghostty/icons/` and are applied with `macos-icon = custom`.
+  Three variants are included: the Catppuccin Frappe ghost, plain Catppuccin Frappe, and Ghostty
+  original; point `macos-custom-icon` at the one you want.
 - Starship defines the full `catppuccin_frappe` palette (`overLaye` is a harmless typo for
   `overlay0`; it is not referenced by the prompt format).
 - Zed is set to system theme mode with **Catppuccin Macchiato** for dark mode. Switch it to
