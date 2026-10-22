@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+
+# Per-package installs / state
+node_modules/
+tmux/.config/tmux/plugins/
+opencode/.config/opencode/.opencode/
+nvim/.config/nvim/.git/
+
+# Local overrides
+*.local
